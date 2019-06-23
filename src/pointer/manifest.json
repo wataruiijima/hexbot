@@ -1,0 +1,15 @@
+{
+    "name": "color-pointer",
+    "description": "It's Colorful Pointer :)",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "content_scripts": [
+      {
+        "run_at": "document_idle",
+        "matches": [ "http://*/*", "https://*/*" ],
+        "js": [
+          "color-pointer.js"
+        ]
+      }
+    ]
+  }
